@@ -18,7 +18,7 @@ public class Enemy : MonoBehaviour
     private void Start()
     {
         int rd = Random.Range(0, 10);//0~9
-        if (rd < 3)
+        if (rd < 4)
         {
             GameObject target = GameObject.Find("Player");
             dir = target.transform.position - transform.position;
