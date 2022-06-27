@@ -9,16 +9,19 @@ public class Boss : MonoBehaviour
 {
     [SerializeField] StageData stageData;
     [SerializeField] float bossAppearPoint = 2.5f;
+    [SerializeField] int bossDie = 1000;
     private BossState bossState = BossState.MoveToAppearPoint;
     private Movement movement;
     private BossBullet bossBullet;
     private BossHP bossHP;
+    Player player;
 
     private void Awake()
     {
         movement = GetComponent<Movement>();
         bossBullet = GetComponent<BossBullet>();
         bossHP = GetComponent<BossHP>();
+        player = FindObjectOfType<Player>();
     }
 
     public void ChangeState(BossState newState)
@@ -107,6 +110,7 @@ public class Boss : MonoBehaviour
 
     public void OnDie()
     {
+        player.Score += bossDie;
         Destroy(gameObject);
         SceneManager.LoadScene("GameClear");
     }

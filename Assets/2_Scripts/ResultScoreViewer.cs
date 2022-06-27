@@ -9,7 +9,7 @@ public class ResultScoreViewer : MonoBehaviour
     void Start()
     {
         textScore = GetComponent<TextMeshProUGUI>();
-        textScore.text = "Result Score " + PlayerPrefs.GetInt("Score");
+        textScore.text = "Best Score : " + PlayerPrefs.GetInt("Score");
     }
 
 }
