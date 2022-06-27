@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public enum BossState { MoveToAppearPoint = 0, Phase01, Phase02, Phase03 }
 
@@ -102,5 +103,11 @@ public class Boss : MonoBehaviour
 
             yield return null;
         }
+    }
+
+    public void OnDie()
+    {
+        Destroy(gameObject);
+        SceneManager.LoadScene("GameClear");
     }
 }

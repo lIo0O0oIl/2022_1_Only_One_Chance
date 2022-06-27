@@ -7,11 +7,13 @@ public class BossHP : MonoBehaviour
     [SerializeField] public float maxHP = 1000;
     public float currentHP;
     private SpriteRenderer spriteRenderer;
+    Boss boss;
 
     private void Awake()
     {
         currentHP = maxHP;
         spriteRenderer = GetComponent<SpriteRenderer>();
+        boss = GetComponent<Boss>();
     }
 
     public void TakeDamage(float damage)
@@ -23,7 +25,7 @@ public class BossHP : MonoBehaviour
 
         if (currentHP <= 0)
         {
-            Debug.Log("Boss die");
+            boss.OnDie();
         }
     }
 
