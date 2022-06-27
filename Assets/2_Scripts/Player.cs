@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class Player : MonoBehaviour
 {
@@ -69,5 +70,17 @@ public class Player : MonoBehaviour
     {
         set => mana = Mathf.Max(0, value);
         get => mana;
+    }
+
+    public void OnDie()
+    {
+        PlayerPrefs.SetInt("Score", score);
+        SceneManager.LoadScene("GameOver");
+        int currentScore = score;
+        int bestScore = 0;
+        if (currentScore > bestScore)
+        {
+            bestScore = currentScore;
+        }
     }
 }

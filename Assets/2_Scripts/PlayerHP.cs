@@ -1,7 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 public class PlayerHP : MonoBehaviour
 {
@@ -11,6 +10,7 @@ public class PlayerHP : MonoBehaviour
     //Player player;
     public float MaxHP => maxHP;
     public float CurrentHP => currentHP;
+
     void Start()
     {
         currentHP = maxHP;
@@ -27,7 +27,7 @@ public class PlayerHP : MonoBehaviour
 
         if (currentHP <= 0)
         {
-            SceneManager.LoadScene("GameOver");
+            GetComponent<Player>().OnDie();
         }
     }
 
