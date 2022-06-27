@@ -27,11 +27,5 @@ public class Bullet : MonoBehaviour
                 GetComponent<Mana>().UseMana(useMana);
                 yield return new WaitForSeconds(attackRate);
             }
-        /*while (true)
-        {
-            Instantiate(BulletPrefab, transform.position, Quaternion.identity);
-            GetComponent<Mana>().UseMana(useMana);
-            yield return new WaitForSeconds(attackRate);
-        }*/
     }
 }
