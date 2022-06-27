@@ -13,8 +13,9 @@ public class Enemy : MonoBehaviour
         player = FindObjectOfType<Player>();
     }
 
-    [SerializeField]  float speed = 5;
+    [SerializeField]  float speed = 6;
     Vector3 dir;
+
     private void Start()
     {
         int rd = Random.Range(0, 10);//0~9

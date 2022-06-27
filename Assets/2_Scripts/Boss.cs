@@ -15,6 +15,7 @@ public class Boss : MonoBehaviour
     private BossBullet bossBullet;
     private BossHP bossHP;
     Player player;
+    PlayerHPViewer playerHPViewer;
 
     private void Awake()
     {
@@ -22,6 +23,7 @@ public class Boss : MonoBehaviour
         bossBullet = GetComponent<BossBullet>();
         bossHP = GetComponent<BossHP>();
         player = FindObjectOfType<Player>();
+        playerHPViewer = GetComponent<PlayerHPViewer>();
     }
 
     public void ChangeState(BossState newState)
@@ -112,6 +114,6 @@ public class Boss : MonoBehaviour
     {
         player.Score += bossDie;
         Destroy(gameObject);
-        SceneManager.LoadScene("GameClear");
+        SceneManager.LoadScene("GameClaer");
     }
 }

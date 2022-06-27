@@ -8,11 +8,13 @@ public class EnemySpawner : MonoBehaviour
     [SerializeField] StageData stageData;
     [SerializeField] float spawnTime;
 
-    [SerializeField] int maxEnemyCount = 100;
+    [SerializeField] int maxEnemyCount = 150;
     [SerializeField] GameObject boss;
+    Enemy enemy;
 
     void Awake()
     {
+        enemy = GetComponent<Enemy>();
         boss.SetActive(false);
         StartCoroutine("SpawnEnemy");
     }
