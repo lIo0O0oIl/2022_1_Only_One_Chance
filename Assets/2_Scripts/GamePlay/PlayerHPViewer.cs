@@ -16,6 +16,6 @@ public class PlayerHPViewer : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        sliderHP.value = Mathf.Lerp(sliderHP.value, playerHP.CurrentHP / playerHP.MaxHP, Time.deltaTime * 10);
+        sliderHP.value = Mathf.Lerp(sliderHP.value, playerHP.CurrentHP / playerHP.MaxHP, Time.deltaTime * 10);      // 마나가 자연스럽게 줄어들게
     }
 }

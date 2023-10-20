@@ -4,35 +4,30 @@ using UnityEngine;
 
 public class Mana : MonoBehaviour
 {
-    Player player;
     [SerializeField] float maxMana = 10;
     public float currentMana;
-    SpriteRenderer spriteRenderer;
     public float MaxMana => maxMana;
     public float CurrentMana => currentMana;
+
     void Start()
     {
         currentMana = maxMana;
-        spriteRenderer = GetComponent<SpriteRenderer>();
-        //player = GetComponent<Player>();
     }
 
     private void Update()
     {
         if (currentMana <= 0)
         {
-            GetComponent<Player>().mana1();
+            GetComponent<Player>().mana1();         // 마나 없어, false
         }
         else
         {
-            GetComponent<Player>().mana2();
+            GetComponent<Player>().mana2();         // 마나 있어, true
         }
     }
 
     public void UseMana(float mana)
     {
         currentMana -= mana;
-
-        
     }
 }

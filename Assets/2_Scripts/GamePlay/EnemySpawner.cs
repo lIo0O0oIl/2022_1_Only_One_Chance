@@ -8,7 +8,7 @@ public class EnemySpawner : MonoBehaviour
     [SerializeField] StageData stageData;
     [SerializeField] float spawnTime;
 
-    [SerializeField] int maxEnemyCount = 150;
+    [SerializeField] int maxEnemyCount = 150;       // 최대 나오는 적들
     [SerializeField] GameObject boss;
     Enemy enemy;
 
@@ -25,7 +25,7 @@ public class EnemySpawner : MonoBehaviour
 
         while (true)
         {
-            float positionX = Random.Range(stageData.LimitMin.x, stageData.LimitMax.x);
+            float positionX = Random.Range(stageData.LimitMin.x, stageData.LimitMax.x);         // 랜덤 위치 지정해서 해줌
             Vector3 enemyPosition = new Vector3(positionX, stageData.LimitMax.y + 1f);
             Instantiate(enemyPrefab, enemyPosition, Quaternion.identity);
 
@@ -44,6 +44,6 @@ public class EnemySpawner : MonoBehaviour
     {
         yield return new WaitForSeconds(0.1f);
         boss.SetActive(true);
-        boss.GetComponent<Boss>().ChangeState(BossState.MoveToAppearPoint);
+        boss.GetComponent<Boss>().ChangeState(BossState.MoveToAppearPoint);         // 보스의 현재 상태는 0, 패턴 적용 x
     }
 }

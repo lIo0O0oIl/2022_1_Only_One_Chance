@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+// º¸½ºÀÇ ÃÑ¾Ë
 public class Enemytile : MonoBehaviour
 {
     [SerializeField] int damage = 1;

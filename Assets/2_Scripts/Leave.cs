@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Leave : MonoBehaviour
 {
-    public void tlqkf()
+    public void Quit()      // 게임 종료 함수
     {
         Application.Quit();
     }

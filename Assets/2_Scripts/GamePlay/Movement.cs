@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Movement : MonoBehaviour
 {
+    // dir 쪽으로 계속해서 움직임
     [SerializeField] float speed;
     [SerializeField] Vector3 direction;
 

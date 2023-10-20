@@ -22,7 +22,7 @@ public class Enemy : MonoBehaviour
         if (rd < 4)
         {
             GameObject target = GameObject.Find("Player");
-            dir = target.transform.position - transform.position;
+            dir = target.transform.position - transform.position;       // 절반의 확률로 나에게 오거나 아래로 그냥 가거나
             //dir = (dir.magnitude!=1)? dir.normalized:dir;
             dir.Normalize();
 
@@ -35,19 +35,19 @@ public class Enemy : MonoBehaviour
 
     void Update()
     {
-        transform.Translate(dir * speed * Time.deltaTime);
+        transform.Translate(dir * speed * Time.deltaTime);      // 계속 dir 로 갈게~
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Player"))
         {
-            collision.GetComponent<PlayerHP>().TakeDamage(damage);
+            collision.GetComponent<PlayerHP>().TakeDamage(damage);      // 플레이어에 맞으면
             Destroy(gameObject);
         }
     }
 
-    public void DieDie()
+    public void DieDie()        // 내가 죽으면
     {
         player.Score += scorePoint;
         Destroy(gameObject);

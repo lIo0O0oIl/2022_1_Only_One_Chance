@@ -17,10 +17,10 @@ public class ManaViewer : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        sliderMana.value = Mathf.Lerp(sliderMana.value, mana.CurrentMana / mana.MaxMana, Time.deltaTime * 10);
+        sliderMana.value = Mathf.Lerp(sliderMana.value, mana.CurrentMana / mana.MaxMana, Time.deltaTime * 10);      // 마나 자연스럽게 줄어들게
     }
 
-    IEnumerator NatureMana()
+    IEnumerator NatureMana()        // 마나가 계속해서 늘어나게
     {
         while (true)
         {

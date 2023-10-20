@@ -15,6 +15,6 @@ public class AutoDestroyer : MonoBehaviour
             transform.position.y > stageData.LimitMax.y + destroyWeight)
         {
             Destroy(gameObject);
-        }
+        }       // 영역 밖으로 나갔으면 지워주기
     }
 }

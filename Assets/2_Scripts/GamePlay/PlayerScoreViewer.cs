@@ -15,6 +15,6 @@ public class PlayerScoreViewer : MonoBehaviour
 
     private void Update()
     {
-        textScore.text = "Score : " + player.Score;
+        textScore.text = "Score : " + player.Score;     // 플레이어 스크립트의 스코어로 계속해서 변경중
     }
 }

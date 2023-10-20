@@ -23,8 +23,8 @@ public class Bullet : MonoBehaviour
     {
             while (true)
             {
-                Instantiate(BulletPrefab, transform.position, Quaternion.identity);
-                GetComponent<Mana>().UseMana(useMana);
+                Instantiate(BulletPrefab, transform.position, Quaternion.identity);     // 앞에 보고 쏘자
+                GetComponent<Mana>().UseMana(useMana);      // 공격이 되었으니 마나를 줄여주기
                 yield return new WaitForSeconds(attackRate);
             }
     }

@@ -27,7 +27,7 @@ public class PlayerHP : MonoBehaviour
 
         if (currentHP <= 0)
         {
-            GetComponent<Player>().OnDie();
+            GetComponent<Player>().OnDie();     // 죽으면 호출해줭
         }
     }
 

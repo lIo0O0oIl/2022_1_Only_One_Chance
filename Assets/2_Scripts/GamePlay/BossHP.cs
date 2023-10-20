@@ -25,7 +25,7 @@ public class BossHP : MonoBehaviour
 
         if (currentHP <= 0)
         {
-            boss.OnDie();
+            boss.OnDie();       // º¸½º Á×À½.
         }
     }
 
