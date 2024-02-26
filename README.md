@@ -61,6 +61,48 @@
 </a>
 
 ## 구조
+```bash
+2022_1_ONLY_ONE_CHANCE\ASSETS
+├─1_Scenes
+│      GameClaer.unity
+│      GameOver.unity
+│      Intro.unity
+│      Play.unity
+│
+├─2_Scripts
+│  │  ButtonEvent.cs
+│  │  Leave.cs
+│  │  Leave.cs.meta
+│  │
+│  └─GamePlay
+│          AutoDestroyer.cs
+│          Boss.cs
+│          BossBullet.cs
+│          BossHP.cs
+│          Bullet.cs
+│          Bulletile.cs
+│          Enemy.cs
+│          EnemySpawner.cs
+│          Enemytile.cs
+│          Mana.cs
+│          ManaViewer.cs
+│          Movement.cs
+│          Player.cs
+│          PlayerHP.cs
+│          PlayerHPViewer.cs
+│          PlayerScoreViewer.cs
+│          ResultScoreViewer.cs
+│          StageData.asset
+│          StageData.cs
+│
+├─3_Prefabs
+│      BossBullet.prefab
+│      Bullet.prefab
+│      Enemy.prefab
+│
+├─4_Sounds
+         Rinne - Connect.mp3
+```
 
 ## 참고
 > **삼각함수 관련** : [https://drive.google.com/file/d/1hb1mr_L1kKyg1mslgdt7ng5TSz4dKZUp/view?usp=sharing] <br>
