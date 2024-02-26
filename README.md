@@ -1,7 +1,9 @@
 # Only One Chance
 
 <div align="center">
-<img alt="image" src="./ReadMe_Image/Title.png">
+<a href="#">
+  <img alt="image" src="./ReadMe_Image/Title.png">
+</a>
 <!--타이틀 잘라서 넣어주기-->
 
 <!--
@@ -29,7 +31,7 @@
 
 | Intro | InGame | Outro |
 | :---: | :----: | :---: |
-| <img alt="image" height="325" width="200" src="./ReadMe_Image/Intro.png"> | <img alt="image" height="325" width="200" src="./ReadMe_Image/InGame1.png"> <img alt="image" height="325" width="200" src="./ReadMe_Image/InGame2.png"> | <img alt="image" height="325" width="200" src="./ReadMe_Image/Outro.png"> |
+| <a href="#"> <img alt="image" width="200" src="./ReadMe_Image/Intro.png"> </a> | <a href="#"> <img alt="image" width="200" src="./ReadMe_Image/InGame1.png"> <img alt="image" width="200" src="./ReadMe_Image/InGame2.png"> </a> | <a href="#"> <img alt="image" width="200" src="./ReadMe_Image/Outro.png"> </a> |
 </div>
 
 > **Only One Chance는 1학년 1학기 동안 배운 내용을 응용해서 약 1개월동안 만든 간단한 PC 슈팅게임입니다.**  
@@ -41,16 +43,22 @@
 ## 개발팀 소개
 <div align="center">
 
-| 이름 |
+| <a href="https://github.com/lIo0O0oIl"> lIo0O0oIl </a> |
 | :-----------: |
-| |
+| <a href="https://github.com/lIo0O0oIl"> <img alt="image" width="200" src="https://github.com/lIo0O0oIl.png"> </a> |
+| 1인 개발 |
 
 </div>
 
-## 사용한 프로그램
-
-언어  
-C#
+## 사용한 것들
+<div align="left"> <a href="#">
+<img src="https://img.shields.io/badge/unity-%23000000.svg?style=for-the-badge&logo=unity&logoColor=white">
+<img src="https://img.shields.io/badge/Visual%20Studio%202022-5C2D91?style=for-the-badge&logo=Visual%20Studio&logoColor=white">
+<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=GitHub&logoColor=white">
+</a> </div>
+<a href="#">
+  <img src="https://img.shields.io/badge/Unity_Version-2021.3.8f1-blue?style=flat-square">
+</a>
 
 ## 구조
 
