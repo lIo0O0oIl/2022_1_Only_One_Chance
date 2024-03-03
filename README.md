@@ -19,11 +19,11 @@
 
 |  InGame   |
 | :-------: |
-| <a href="#"> <img alt="image" width="200" src="./ReadMe_Image/InGame1.png"> <img alt="image" width="200" src="./ReadMe_Image/InGame2.png"> </a> |
+| <a href="#"> <img alt="image" width="250" src="./ReadMe_Image/InGame1.png"> <img alt="image" width="250" src="./ReadMe_Image/InGame2.png"> </a> |
 
 |   Intro   |   Outro   |
 |:---------:|:---------:|
-| <a href="#"> <img alt="image" width="200" src="./ReadMe_Image/Intro.png"> </a> | <a href="#"> <img alt="image" width="200" src="./ReadMe_Image/Outro.png"> </a> |
+| <a href="#"> <img alt="image" width="250" src="./ReadMe_Image/Intro.png"> </a> | <a href="#"> <img alt="image" width="250" src="./ReadMe_Image/Outro.png"> </a> |
 
 </div>
 
