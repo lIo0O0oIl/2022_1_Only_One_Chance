@@ -6,9 +6,7 @@
 </a>
 <!--타이틀 잘라서 넣어주기-->
 
-<!--
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FlIo0O0oIl%2F2022_1_Only_One_Chance&count_bg=%23EEEE0E&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
-방문 횟수 띄우는 것-->
 
 </div> <!--가운데 정렬은 여기까지-->
 
@@ -19,19 +17,14 @@
 ## 게임 설명
 <div align="center">
 
-<!--
-|   Intro   |   Outro   |
-|:---------:|:---------:|
-|           |           |
-
 |  InGame   |
 | :-------: |
-|           |
-이게 기본적으로 들어갈 건데 아웃트로는 뒤로 빼져있는 게 더 좋을려나. 고민필요.-->
+| <a href="#"> <img alt="image" width="200" src="./ReadMe_Image/InGame1.png"> <img alt="image" width="200" src="./ReadMe_Image/InGame2.png"> </a> |
 
-| Intro | InGame | Outro |
-| :---: | :----: | :---: |
-| <a href="#"> <img alt="image" width="200" src="./ReadMe_Image/Intro.png"> </a> | <a href="#"> <img alt="image" width="200" src="./ReadMe_Image/InGame1.png"> <img alt="image" width="200" src="./ReadMe_Image/InGame2.png"> </a> | <a href="#"> <img alt="image" width="200" src="./ReadMe_Image/Outro.png"> </a> |
+|   Intro   |   Outro   |
+|:---------:|:---------:|
+| <a href="#"> <img alt="image" width="200" src="./ReadMe_Image/Intro.png"> </a> | <a href="#"> <img alt="image" width="200" src="./ReadMe_Image/Outro.png"> </a> |
+
 </div>
 
 > **Only One Chance는 1학년 1학기 동안 배운 내용을 응용해서 약 1개월동안 만든 간단한 PC 슈팅게임입니다.**  
