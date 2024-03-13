@@ -25,6 +25,12 @@
 |:---------:|:---------:|
 | <a href="#"> <img alt="image" width="250" src="./ReadMe_Image/Intro.png"> </a> | <a href="#"> <img alt="image" width="250" src="./ReadMe_Image/Outro.png"> </a> |
 
+<!-- 영상이 있으면 이곳에 넣어주기
+| video |
+| :---: |
+| <a href=""> <img alt="video" width="" src=""> </a> |
+-->
+
 </div>
 
 > **Only One Chance는 1학년 1학기 동안 배운 내용을 응용해서 약 1개월동안 만든 간단한 PC 슈팅게임입니다.**  
