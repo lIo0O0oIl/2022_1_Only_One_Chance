@@ -1,13 +1,14 @@
 <div align="center">
-<h1>Only One Chance 🎮</h1>
-<a href="#">
-  <img alt="image" src="./ReadMe_Image/Title.png">
-</a>
+  <h1>Only One Chance 🎮</h1>
+  <a href="#">
+    <img alt="image" src="./ReadMe_Image/Title.png">
+  </a>
   
-<!--타이틀 잘라서 넣어주기-->
-
-[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FlIo0O0oIl%2F2022_1_Only_One_Chance&count_bg=%23EEEE0E&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
-
+  <div>
+    <a href="#">
+      <img alt="hits" src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FlIo0O0oIl%2F2022_1_Only_One_Chance&count_bg=%23EEEE0E&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false">
+    </a>
+  </div>
 </div> <!--가운데 정렬은 여기까지-->
 
 
@@ -118,11 +119,11 @@ Only One Chance는 1학년 1학기 동안 배운 내용을 응용해서 약 1개
 
 
 ## 참고
+
 #### 사용한 도구
 <div align="left"> <a href="#">
-  
-![Unity](https://img.shields.io/badge/unity-%23000000.svg?style=for-the-badge&logo=unity&logoColor=white)
-![Visual Studio 2023](https://img.shields.io/badge/Visual%20Studio%202022-5C2D91?style=for-the-badge&logo=Visual%20Studio&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=GitHub&logoColor=white)  
-![Version](https://img.shields.io/badge/Unity_Version-2021.3.8f1-blue?style=flat-square)
+<img src="https://img.shields.io/badge/unity-%23000000.svg?style=for-the-badge&logo=unity&logoColor=white"><img src="https://img.shields.io/badge/Visual%20Studio%202022-5C2D91?style=for-the-badge&logo=Visual%20Studio&logoColor=white"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=GitHub&logoColor=white">  
 </a> </div>
+<a href="#">
+  <img src="https://img.shields.io/badge/Unity_Version-2021.3.8f1-blue?style=flat-square">
+</a>
