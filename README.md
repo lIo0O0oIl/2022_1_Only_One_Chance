@@ -10,6 +10,7 @@
     </a>
   </div>
 </div> <!--가운데 정렬은 여기까지-->
+<br>
 
 
 ## 목차
@@ -19,11 +20,13 @@
 - [개발팀 소개](#개발팀-소개)
 - [파일 구조](#파일-구조)
 - [참고](#참고)
+<br>
 
 
 ## 프로젝트 정보
 - 제작 : 1학년 1학기 개인 수행평가  
 - 기간 : 2022.05월경 ~ 2022.06.26
+<br>
 
 
 ## 게임 설명
@@ -37,11 +40,9 @@
 |:---------:|:---------:|
 | <a href="#"> <img alt="image" width="250" src="./ReadMe_Image/Intro.png"> </a> | <a href="#"> <img alt="image" width="250" src="./ReadMe_Image/Outro.png"> </a> |
 
-<!-- 영상이 있으면 이곳에 넣어주기
 | video |
 | :---: |
-| <a href=""> <img alt="video" width="" src=""> </a> |
--->
+| <a href="https://youtu.be/f9qYgRpHhfg"> <img alt="video" src="https://img.youtube.com/vi/f9qYgRpHhfg/0.jpg"> </a> |
 
 |이동방향|위|왼쪽|아래|오른쪽|
 |:---:|:---:|:---:|:---:|:---:|
@@ -53,9 +54,13 @@
 Only One Chance는 1학년 1학기 동안 배운 내용을 응용해서 약 1개월동안 만든 간단한 PC 슈팅게임입니다.  
 플레이어 쪽으로 날라오는 적, 한 방향으로 내려오는 적이 랜덤으로 생성되며 3가지의 패턴을 가진 보스가 존재합니다.
 
+<br>
+
 
 ## 게임 다운
 구글 드라이브 : [https://drive.google.com/file/d/1hb1mr_L1kKyg1mslgdt7ng5TSz4dKZUp/view?usp=sharing]
+
+<br>
 
 
 ## 개발팀 소개
@@ -67,6 +72,7 @@ Only One Chance는 1학년 1학기 동안 배운 내용을 응용해서 약 1개
 | 1인 개발 |
 
 </div>
+<br>
 
 
 ## 파일 구조
@@ -117,7 +123,7 @@ Only One Chance는 1학년 1학기 동안 배운 내용을 응용해서 약 1개
 ```
 
 </details>
-
+<br>
 
 ## 참고
 
