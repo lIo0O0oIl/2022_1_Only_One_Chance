@@ -1,4 +1,3 @@
-
 ## Only One Chance 🎮
 
 게임 메뉴얼 : [https://url.kr/c2p7by]
